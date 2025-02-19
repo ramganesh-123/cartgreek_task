@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const WelcomeHeader(),
-                        const SizedBox(height: 24),
+                        const SizedBox(height: 34),
                         const Services(),
                         const SizedBox(height: 24),
                         Text(
