@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
       drawer: const CustomDrawer(),
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
+          // backgroundColor: Colors.transparent,
           elevation: 0,
           actions: [
             Padding(
