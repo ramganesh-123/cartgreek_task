@@ -1,7 +1,9 @@
-import 'package:cart_greek_task/widgets/customdrawer.dart';
+import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
+
+import 'package:cart_greek_task/widgets/customdrawer.dart';
 import 'package:cart_greek_task/widgets/bottomnavigation.dart';
 import 'package:cart_greek_task/widgets/listofpackages.dart';
 import 'package:cart_greek_task/widgets/onedaypackages.dart';
@@ -49,7 +51,6 @@ class _HomeScreenState extends State<HomeScreen> {
       drawer: const CustomDrawer(),
       child: Scaffold(
         appBar: AppBar(
-          // backgroundColor: Colors.transparent,
           elevation: 0,
           actions: [
             Padding(

@@ -14,12 +14,15 @@ class Services extends StatelessWidget {
       child: Stack(
         clipBehavior: Clip.none,
         children: [
+          const SizedBox(
+            height: 80,
+          ),
           Positioned(
             right: -70,
-            top: -60,
+            top: -55,
             child: Image.asset(
               'assets/Group 3750.png',
-              height: 200,
+              height: 210,
             ),
           ),
           Row(
