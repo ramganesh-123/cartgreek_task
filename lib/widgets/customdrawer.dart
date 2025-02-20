@@ -16,11 +16,11 @@ class CustomDrawer extends StatelessWidget {
             children: [
               Container(
                 padding: const EdgeInsets.only(
-                  left: 15,
+                  left: 60,
                   bottom: 15,
                 ),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     const CircleAvatar(
                       radius: 35,
