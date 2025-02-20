@@ -49,6 +49,8 @@ class _HomeScreenState extends State<HomeScreen> {
       animationDuration: const Duration(milliseconds: 300),
       animationCurve: Curves.easeInOut,
       drawer: const CustomDrawer(),
+      openRatio: 0.65,
+      openScale: 0.85,
       child: Scaffold(
         appBar: AppBar(
           elevation: 0,

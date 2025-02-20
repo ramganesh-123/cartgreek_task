@@ -7,7 +7,7 @@ class CustomDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        padding: const EdgeInsets.only(top: 20),
+        padding: const EdgeInsets.only(left: 36, top: 20),
         child: ListTileTheme(
           textColor: Colors.indigo[900],
           iconColor: Colors.indigo[900],
