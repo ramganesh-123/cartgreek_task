@@ -10,7 +10,7 @@ class Services extends StatelessWidget {
       children: [
         const SizedBox(
           width: 600,
-          height: 200,
+          height: 180,
         ),
         SizedBox(
           height: 150,
@@ -37,7 +37,7 @@ class Services extends StatelessWidget {
         ),
         Positioned(
           left: 25,
-          top: 100,
+          top: 95,
           child: ElevatedButton(
             onPressed: () {},
             style: ElevatedButton.styleFrom(

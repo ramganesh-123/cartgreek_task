@@ -79,12 +79,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         const WelcomeHeader(),
                         const SizedBox(height: 34),
                         const Services(),
-                        const SizedBox(height: 24),
+                        const SizedBox(height: 8),
                         Text(
                           'Your Current Booking',
                           style: s20W600Pri,
                         ),
-                        const SizedBox(height: 16),
+                        const SizedBox(height: 26),
                         const OneDayPackages(),
                         const SizedBox(height: 24),
                         Text(
